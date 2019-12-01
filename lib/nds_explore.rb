@@ -14,7 +14,7 @@ row_index = 0
 
 while row_index < 7 do
   movie_title = directors_database[0][:movies]
-  puts " #{movie_title[row_index][:title]}\n "
+  puts " #{movie_title[row_index][:title]},\n "
 row_index += 1
 end
 
