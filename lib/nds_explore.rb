@@ -10,13 +10,12 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-row_index = 0
+#row_index = 0
 
-while row_index < 7 do
-  movie_title = directors_database[0][:movies]
-  puts " #{movie_title[row_index][:title]},\n "
-row_index += 1
-end
+# movie_title = directors_database[0][:movies]
+  #puts " #{movie_title[row_index][:title]},\n "
+#row_index += 1
+#end
 
 end
 
