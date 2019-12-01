@@ -15,9 +15,9 @@ row_index = 0
 while row_index < 7 do
   movie_title = directors_database[0][:movies]
   puts " #{movie_title[row_index][:title]}\n "
-
+row_index += 1
 end
-row_index += 1 
+
 end
 
 pretty_print_nds(directors_database)
